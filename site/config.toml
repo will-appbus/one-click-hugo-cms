@@ -1,3 +1,64 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+
+[menu]
+
+  [[menu.sectionmenu]]
+  name = "Company"
+  url = "#"
+  identifier = "company"
+  weight = 1.0
+
+  [[menu.sectionmenu]]
+  name = "About Us"
+  url = "company/about/"
+  identifier = "about"
+  parent = "company"
+  weight = 2.0
+
+  [[menu.sectionmenu]]
+  name = "Leadership"
+  url = "company/leadership/"
+  identifier = "leadership"
+  parent = "company"
+  weight = 3.0
+
+  [[menu.sectionmenu]]
+  name = "Blog"
+  url = "company/blog/"
+  identifier = "blog"
+  parent = "company"
+  weight = 4.0
+
+  [[menu.sectionmenu]]
+  name = "Careers"
+  url = "company/careers/"
+  identifier = "careers"
+  parent = "company"
+  weight = 5.0
+
+  [[menu.sectionmenu]]
+  name = "Solutions"
+  url = "#"
+  identifier = "solutions"
+  weight = 2.0
+
+  [[menu.sectionmenu]]
+  name = "Use Cases"
+  url = "solutions/usecases/"
+  parent = "solutions"
+  weight = 1.0
+
+  [[menu.sectionmenu]]
+  name = "Partners"
+  url = "#"
+  identifier = "partners"
+  parent = "solutions"
+  weight = 2.0
+
+  [[menu.sectionmenu]]
+  name = "Products"
+  url = "products/"
+  identifier = "products"
+  weight = 3.0

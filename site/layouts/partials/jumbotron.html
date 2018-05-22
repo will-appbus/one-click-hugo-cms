@@ -1,4 +1,4 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
+<!-- <div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
   <div class="mw7 center ph3">
     <div class="db mb3">
       <div class="mw7 relative bg-fix-primary mb3">
@@ -15,4 +15,27 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<section>
+  <div class="home-carousel">
+      <div class="dark-mask"></div>
+      <div class="container">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10" style="height:450px;display:flex;align-items:center;justify-content:center;flex-direction:column">
+              <h1 style="font-size: 50px" class=" lh-title white">{{.title}}</h1>
+              <div class="banner-subtitle-container" style="width:100%;align-self:center">
+                  {{ if .subtitle }}
+                    <p class="banner-subtitle white" style="font-size: 25px">{{.subtitle}}</p>
+                  {{ end }}
+                  <a class="learn-more" href="getting-started">
+                      <button class="btn btn-template-transparent-black btn-lg">Learn More</button>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <video playsinline autoplay muted loop id="bgvid">
+          <source src="{{.imageUrl}}" type="video/mp4">
+      </video>
+  </div>
+</section>

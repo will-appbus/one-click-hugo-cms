@@ -1,7 +1,20 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: "REIMAGINE HOW APPLICATIONS CAN WORK TOGETHER"
+subtitle: ACCELERATE THE DIGITAL TRANSFORMATION EXPERIENCE
+image: /img/AppBus-intro.mp4
+valueprops:
+    - icon: "fa-cogs"
+      title: "OPTIMIZE ECOSYSTEM"
+      subtitle: "Leverage existing and emerging business assets across the enterprise to reduce cost and accelerate time to value"
+      weight: 1
+    - icon: ""
+      title: "EMPOWER PEOPLE"
+      subtitle: "Harness what matters most with insight and automation of activities that increase efficiency and improve productivity"
+      weight: 2
+    - icon: ""
+      title: "SECURE DELIVERY"
+      subtitle: "Power secure business experiences that drive real value while meeting employee, customer and partners expectations"
+      weight: 3
 blurb:
     heading: Why Kaldi?
     text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
