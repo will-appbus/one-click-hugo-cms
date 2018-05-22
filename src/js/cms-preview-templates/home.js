@@ -3,6 +3,8 @@ import format from "date-fns/format";
 
 import Jumbotron from "./components/jumbotron";
 
+var FontAwesome = require("react-fontawesome");
+
 export default class PostPreview extends React.Component {
   render() {
     const { entry, getAsset } = this.props;
@@ -32,7 +34,7 @@ export default class PostPreview extends React.Component {
                 (valueprop, i) => (
                   <div className="ph2-ns w-50-ns" key={i}>
                     <div className="feature-icon">
-                      <i className={`fas ${valueprop.get("icon")}`} />
+                      <FontAwesome name={`${valueprop.get("icon")}`} />
                     </div>
                     <p>{valueprop.get("title")}</p>
                     <p>{valueprop.get("subtitle")}</p>

@@ -12,14 +12,15 @@ export default {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        query: { cacheDirectory: true }
       }
     ]
   },
 
   plugins: [
     new webpack.ProvidePlugin({
-      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+      fetch:
+        "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
     })
   ],
 
@@ -33,5 +34,5 @@ export default {
     publicPath: "/",
     filename: "[name].js"
   },
-  externals:  [/^vendor\/.+\.js$/]
+  externals: [/^vendor\/.+\.js$/]
 };
