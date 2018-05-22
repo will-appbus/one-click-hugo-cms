@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: "Valueprops", name: Valueprops, widget: list, fields: [
+          - {label: "Valueprops", name: valueprops, widget: list, fields: [
               {label: "Title", name: "title", widget: "text"},
               {label: "Subtitle", name: "subtitle", widget: "text"},
               {label: "icon", name: "icon", widget: "text"}]}
