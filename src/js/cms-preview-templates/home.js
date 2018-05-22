@@ -3,7 +3,8 @@ import format from "date-fns/format";
 
 import Jumbotron from "./components/jumbotron";
 
-var FontAwesome = require("react-fontawesome");
+import FontAwesome from "react-fontawesome";
+// var FontAwesome = require("react-fontawesome");
 
 export default class PostPreview extends React.Component {
   render() {
