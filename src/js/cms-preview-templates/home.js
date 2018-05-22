@@ -34,7 +34,7 @@ export default class PostPreview extends React.Component {
                 (valueprop, i) => (
                   <div className="ph2-ns w-50-ns" key={i}>
                     <div className="feature-icon">
-                      <FontAwesome name={`${valueprop.get("icon")}`} />
+                      <FontAwesome name={`cogs`} />
                     </div>
                     <p>{valueprop.get("title")}</p>
                     <p>{valueprop.get("subtitle")}</p>
